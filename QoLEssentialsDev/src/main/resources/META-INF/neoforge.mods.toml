@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="qol_essentials"
+version="0.1.0"
+displayName="QoL Essentials"
+authors="QoL Essentials Team"
+description='''A modular Quality of Life mod for Minecraft 1.21.1. Initial feature: Harvest & Replant.'''
+
+[[dependencies.qol_essentials]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.qol_essentials]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
